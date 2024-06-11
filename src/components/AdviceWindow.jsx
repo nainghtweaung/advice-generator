@@ -32,8 +32,6 @@ function AdviceWindow() {
     return Math.floor(Math.random() * num);
   }
 
-  console.log(isMobile);
-
   if (isLoading) {
     return <Spinner></Spinner>;
   }
